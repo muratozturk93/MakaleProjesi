@@ -55,17 +55,10 @@
                     </td>
                     <td>
 
+                        @BootstrapHelper.Linkbuton("/Kategori/Edit/" + item.Id, "warning", "btn-sm", "edit","")
+                        @BootstrapHelper.Linkbuton("/Kategori/Details/" + item.Id, "info", "btn-sm", "search","")
+                        @BootstrapHelper.Linkbuton("/Kategori/Delete/" + item.Id, "danger", "btn-sm", "trash","")
 
-                        @BoostrapHelper.Linkbuton("/Kategori/Edit/" + item.Id, "warning", "btn-sm", "edit", "")
-                        @BoostrapHelper.Linkbuton("/Kategori/Details/" + item.Id, "info", "btn-sm", "search", "")
-                        @BoostrapHelper.Linkbuton("/Kategori/Delete/" + item.Id, "danger", "btn-sm", "trash", "")
-
-
-                        @*<a href="/Kategori/Edit/@item.Id" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-edit"></span></a>
-
-                        <a href="/Kategori/Details/@item.Id" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-search"></span></a>
-
-                        <a href="/Kategori/Delete/@item.Id" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span></a>*@
 
                     </td>
                 </tr>

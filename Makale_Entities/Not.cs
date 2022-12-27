@@ -19,6 +19,7 @@ namespace Makale_Entities
         public string Text { get; set; }
         public bool Taslak { get; set; }
         public int BegeniSayisi { get; set; }
+
         [DisplayName("Kategori")]
         public int KategoriId { get; set; } 
 

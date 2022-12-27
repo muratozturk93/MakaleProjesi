@@ -18,8 +18,6 @@ namespace Makale_Entities
         [StringLength(20)]
         public string Soyad { get; set; }
 
-        public string telefon { get; set; }
-
         [StringLength(20),ScaffoldColumn(false)]
         public string ProfilResim { get; set; }
 
